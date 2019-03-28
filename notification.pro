@@ -25,4 +25,9 @@ DISTFILES += \
     android-sources/gradle/wrapper/gradle-wrapper.jar \
     android-sources/gradle/wrapper/gradle-wrapper.properties \
     android-sources/gradle.properties \
-    android-sources/settings.gradle
+    android-sources/settings.gradle \
+    android-sources/src/org/qtproject/example/notification/IntercomActivity.java \
+    android-sources/src/org/qtproject/example/notification/SampleApplication.java \
+    android-sources/src/org/qtproject/example/notification/Shortcuts.java \
+    android-sources/res/values/strings.xml \
+    android-sources/res/xml/shortcuts.xml
