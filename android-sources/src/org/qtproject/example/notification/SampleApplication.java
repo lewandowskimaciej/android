@@ -1,6 +1,6 @@
 package org.qtproject.example.notification;
 
-import android.app.Application;
+//import android.app.Application;
 import io.intercom.android.sdk.Intercom;
 
 public class SampleApplication extends org.qtproject.qt5.android.bindings.QtApplication {
