@@ -10,9 +10,9 @@
          do anything with it. Otherwise you're in for a crash! -->
     <intent
       android:action="android.intent.action.VIEW"
-      android:targetClass="org.qtproject.example.notification.IntercomAtivity"
+      android:targetClass="org.qtproject.example.notification.IntercomActivity"
       android:targetPackage="org.qtproject.example.notification">
-      <extra android:name="key" android:value="value" />
+      <extra android:name="skrot" android:value="value" />
 
     </intent>
     <categories android:name="android.shortcut.conversation" />
@@ -29,31 +29,24 @@
   </shortcut>
 
 
-    <shortcut
+    <!--shortcut
       android:enabled="true"
       android:shortcutId="komunikator"
       android:shortcutShortLabel="@string/drugi_skrot_krotka_nazwa"
-      android:shortcutLongLabel="@string/drugi_skrot_dluga_nazwa">
+      android:shortcutLongLabel="@string/drugi_skrot_dluga_nazwa"-->
 
       <!-- Each one of these intents needs an android:action, even if you don't
            do anything with it. Otherwise you're in for a crash! -->
-
+<!--
         <intent
           android:action="android.intent.action.VIEW"
-          android:targetClass="org.qtproject.example.notification.IntercomActivity"
-          android:targetPackage="org.qtproject.example.notification">
-
-        </intent>
-
-      <intent
-          android:action="android.intent.action.VIEW"
-          android:targetClass="org.qtproject.example.notification.Shortcuts"
-          android:targetPackage="org.qtproject.example.notification">
+          android:targetPackage="org.qtproject.example.notification"
+          android:targetClass="org.qtproject.example.notification.Shortcuts">
           <extra android:name="skrot" android:value="value" />
 
         </intent>
         <categories android:name="android.shortcut.conversation" />
 
-    </shortcut>
+    </shortcut-->
 
 </shortcuts>

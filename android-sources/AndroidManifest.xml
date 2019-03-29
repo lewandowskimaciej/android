@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <manifest package="org.qtproject.example.notification" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.0" android:versionCode="1" android:installLocation="auto">
-    <application android:icon="@drawable/icon" android:name="org.qtproject.qt5.android.bindings.QtApplication" android:label="@string/app_name">
+    <application android:icon="@drawable/icon" android:name="org.qtproject.example.notification.SampleApplication" android:label="@string/app_name">
         <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|locale|fontScale|keyboard|keyboardHidden|navigation" android:name="org.qtproject.example.notification.IntercomActivity" android:label="Qt Notifier" android:screenOrientation="unspecified">
 
             <intent-filter>
@@ -55,6 +55,14 @@
             -->
             <!-- Splash screen -->
         </activity>
+        <activity android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|locale|fontScale|keyboard|keyboardHidden|navigation" android:name="org.qtproject.example.notification.Shortcuts" android:label="Shortcuts" android:screenOrientation="unspecified">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <!--category android:name="android.intent.category.LAUNCHER"/-->
+            </intent-filter>
+        </activity>
+
     </application>
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28"/>
     <supports-screens android:largeScreens="true" android:normalScreens="true" android:anyDensity="true" android:smallScreens="true"/>

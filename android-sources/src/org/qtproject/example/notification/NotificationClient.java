@@ -62,6 +62,9 @@ import android.content.Context;
 import android.graphics.Color;
 import android.os.Build;
 
+import io.intercom.android.sdk.Intercom;
+import io.intercom.android.sdk.identity.Registration;
+
 //import android.os.Bundle;
 //import android.view.View;
 //import android.widget.Button;
@@ -110,6 +113,7 @@ public class NotificationClient extends org.qtproject.qt5.android.bindings.QtAct
                      .setContentText(s)
                      .setContentInfo("Informacja z notyfikacji");
                    m_notificationManager.notify(1, m_builder.build());
+
         //}
 
         //m_builder.setContentText(s);
